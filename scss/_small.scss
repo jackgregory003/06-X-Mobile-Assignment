@@ -33,9 +33,6 @@ header {
         font-weight: $lightWeight;
         color: $primaryColor;
     }
-    button {
-        padding-bottom: 5rem;
-    }
 } // end header
 
 
@@ -54,7 +51,7 @@ header {
     padding: 0;
     width: 44px;
     height: 44px;
-    position: absolute;
+    //position: absolute;
     cursor: pointer;
 }
 
