@@ -32,6 +32,11 @@ header {
         font-size: 1.6rem;
         font-weight: $lightWeight;
         color: $primaryColor;
+        margin-left: 65px;
+    }
+
+    img {
+        margin: 0;
     }
 } // end header
 
@@ -98,13 +103,13 @@ header {
 /* --------------------------- MAIN --------------------------- */
 main {
     h1 {
-        padding: 1rem $gutter.5rem $gutter;
-        font-size: 1.5rem;
+        padding-left: 1rem;
+        font-size: 3rem;
         color: $secondaryColor;
         font-weight: $lightWeight
     }
     p {
-        padding: .5rem $gutter;
+        //padding: .5rem $gutter;
         color: #333;
         line-height: $leading;
     }
@@ -125,11 +130,22 @@ main img{
     justify-content: center;
     margin: 1rem 0;
     padding: 0 8px;
-    border: greenyellow solid 1px;
+    //border: greenyellow solid 1px;
+}
 
-    #advertisement {
-        background-color: chartreuse;
+#advertisement {
+    background-color: #834D01;
+
+    h2, p{
+        color: #fff;
     }
+}
+
+
+
+img{
+    margin-top: 1.5rem;
+    border-radius: 10px 10px 10px 10px;
 }
 
 
@@ -137,10 +153,8 @@ main img{
 .column {
     padding: 0 8px;
     margin: 8px 0;
-    border: red solid 1px;
+    //border: red solid 1px;
 }
-
-
 
 
 
@@ -148,7 +162,7 @@ main img{
 
 @for $i from 1 through 12 {
     $w: calc($i /12) *100%;
-    .medium-#{$i} {flex-basis: $w}
+    .small-#{$i} {flex-basis: $w}
 }
 
 
@@ -160,8 +174,8 @@ main img{
 footer {
     font-size: .85rem;
     padding: 1rem $gutter;
-    color: $greyColor;
+    color: #fff;
     text-align: center;
     line-height: $leading;
-    a {color: $greyColor;}
+    a {color: #fff;}
 }// end footer
