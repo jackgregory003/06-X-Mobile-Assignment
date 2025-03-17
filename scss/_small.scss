@@ -111,6 +111,12 @@ main {
 }// end main
 
 
+main img{
+    width: 100%;
+    height: auto;
+}
+
+
 
 //styling the rows
 .row {
@@ -120,11 +126,17 @@ main {
     margin: 1rem 0;
     padding: 0 8px;
     border: greenyellow solid 1px;
+
+    #advertisement {
+        background-color: chartreuse;
+    }
 }
+
 
 //styling the rows
 .column {
     padding: 0 8px;
+    margin: 8px 0;
     border: red solid 1px;
 }
 

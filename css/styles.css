@@ -400,6 +400,11 @@ main p {
   line-height: 150%;
 }
 
+main img {
+  width: 100%;
+  height: auto;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -408,9 +413,13 @@ main p {
   padding: 0 8px;
   border: greenyellow solid 1px;
 }
+.row #advertisement {
+  background-color: chartreuse;
+}
 
 .column {
   padding: 0 8px;
+  margin: 8px 0;
   border: red solid 1px;
 }
 
